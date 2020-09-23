@@ -2,7 +2,7 @@
 // @name         Facebook new theme font fix
 // @namespace    http://tampermonkey.net/
 // @version      1.0
-// @description  Facebook new theme font fix
+// @description  Fix lỗi tiếng Việt trên facebook giao diện mới
 // @author       Le Hoang
 // @match        https://*.facebook.com/
 // ==/UserScript==
