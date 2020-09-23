@@ -3,6 +3,7 @@
 // @namespace    http://tampermonkey.net/
 // @version      1.0
 // @description  Fix lỗi tiếng Việt trên facebook giao diện mới
+// @description:en  Fix lỗi tiếng Việt trên facebook giao diện mới
 // @author       Le Hoang
 // @match        https://*.facebook.com/
 // ==/UserScript==
