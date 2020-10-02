@@ -2,10 +2,9 @@
 // @name         Facebook new theme font fix
 // @namespace    http://tampermonkey.net/
 // @version      1.0
-// @description  Fix lỗi tiếng Việt trên facebook giao diện mới
-// @description:en  Fix lỗi tiếng Việt trên facebook giao diện mới
+// @description  Facebook new theme font fix
 // @author       Le Hoang
-// @match        https://*.facebook.com/
+// @match        https://*.facebook.com/*
 // ==/UserScript==
 function addGlobalStyle(css) {
     var body, style;
@@ -19,6 +18,7 @@ function addGlobalStyle(css) {
 
 addGlobalStyle(
     `* {font-family: "Segoe UI", Arial, sans-serif !important;
-}
-.rrkovp55 { font-family: "Segoe UI", Arial, sans-serif !important; }
+    }
+    .rrkovp55 { font-family: "Segoe UI", Arial, sans-serif !important; 
+    }
 `);
